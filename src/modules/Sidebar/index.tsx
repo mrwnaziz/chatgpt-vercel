@@ -84,7 +84,7 @@ const Sidebar: FC<{
       <div className="p-4 mt-2 flex items-baseline justify-between">
         <img
           className="w-50 h-auto"
-          src='./innovategpt-logo.png'
+          src="./innovategpt-logo.png"
           alt="InnovateGPT Logo"
           style={{ width: '50%' }}
         />
