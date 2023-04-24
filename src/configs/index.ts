@@ -24,8 +24,8 @@ export type SupportedImgSize = (typeof supportedImgSizes)[number];
 
 export const supportedLanguages = [
   {
-    label: '简体中文',
-    value: 'zh',
+    label: 'العربية',
+    value: 'ar',
   },
   {
     label: 'English',
@@ -40,7 +40,7 @@ export const defaultGloablConfig: GlobalConfig = {
   save: true,
   continuous: true,
   messagesCount: 4,
-  temperature: 1,
+  temperature: 0.3,
   imagesCount: 1,
   imageSize: '256x256',
   lang: 'en',
