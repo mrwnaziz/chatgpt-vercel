@@ -23,7 +23,7 @@ const PromptSelect: FC<{
       let promptList: Prompt[] = [];
       if (!lang) return;
       try {
-        if (lang === 'ar') {
+        if (lang === Lang.AR) {
           promptList = (await import('prompts/prompt_ar.json')).default;
         } else {
           promptList = (await import('prompts/prompt_en.json')).default;
