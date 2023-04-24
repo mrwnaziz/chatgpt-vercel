@@ -85,6 +85,7 @@ const Sidebar: FC<{
           className="w-50 h-auto"
           src="/innovategpt-logo.png"
           alt="InnovateGPT Logo"
+          style="width:50%"
         />
       </div>
       <div className="p-2 flex items-center justify-between mb-4">
