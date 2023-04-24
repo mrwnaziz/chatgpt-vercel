@@ -8,7 +8,6 @@ import './index.css';
 import ImportConversationModal from '@components/ConversationModal/import';
 import RecordCard from './RecordCard';
 
-
 const Sidebar: FC<{
   data: RecordCardItem[];
 }> = ({ data }) => {
