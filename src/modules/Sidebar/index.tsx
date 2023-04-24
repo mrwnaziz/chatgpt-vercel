@@ -8,6 +8,7 @@ import './index.css';
 import ImportConversationModal from '@components/ConversationModal/import';
 import RecordCard from './RecordCard';
 
+
 const Sidebar: FC<{
   data: RecordCardItem[];
 }> = ({ data }) => {
@@ -83,7 +84,7 @@ const Sidebar: FC<{
       <div className="p-4 mt-2 flex items-baseline justify-between">
         <img
           className="w-50 h-auto"
-          src={require('./innovategpt-logo.png')}
+          src='./innovategpt-logo.png'
           alt="InnovateGPT Logo"
           style={{ width: '50%' }}
         />
