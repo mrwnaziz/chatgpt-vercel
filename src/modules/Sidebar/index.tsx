@@ -81,7 +81,11 @@ const Sidebar: FC<{
   return (
     <div className="flex flex-col h-full bg-white">
       <div className="p-4 mt-2 flex items-baseline justify-between">
-        <img className="w-50 h-auto" src="/innovategpt-logo.png" alt="InnovateGPT Logo"></img>
+        <img
+          className="w-50 h-auto"
+          src="/innovategpt-logo.png"
+          alt="InnovateGPT Logo"
+        />
       </div>
       <div className="p-2 flex items-center justify-between mb-4">
         <div className="rounded-xl h-10 border flex-1">
